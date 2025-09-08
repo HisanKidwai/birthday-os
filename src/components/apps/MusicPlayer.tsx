@@ -4,7 +4,7 @@ import { useOS } from '../../context/OSContext';
 
 // Import audio files
 import PerfectAudio from '../assets/music/perfect.mp3';
-import Coldplay from '../assets/music/coldplay.mp3';
+import prettylittlebaby from '../assets/music/prettylittlebaby.mp3';
 import Love from '../assets/music/Love.mp3';
 
 const MusicPlayer = ({ fromFileManager = false }) => {
@@ -33,11 +33,11 @@ const MusicPlayer = ({ fromFileManager = false }) => {
     },
     { 
       id: 2, 
-      title: "Yellow", 
-      artist: "Coldplay", 
+      title: "Pretty Little Lady", 
+      artist: "Connie Francis", 
       color: "from-purple-400 to-indigo-400",
       cover: "💜",
-      audio: Coldplay
+      audio: prettylittlebaby
     },
     { 
       id: 3, 
